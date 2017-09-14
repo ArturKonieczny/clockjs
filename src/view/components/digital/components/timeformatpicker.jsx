@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
+/*Time format picker template*/
 export class TimeFormatPicker extends React.Component {
   constructor(props) {
     super(props);

@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { ClockPicker } from '../components/clockpicker.jsx';
-import { DigitalClockContainer } from './digitalclockcontainer.jsx';
-import { AnalogClockContainer } from './analogclockcontainer.jsx';
+import { ClockPicker } from './components/clockpicker.jsx';
+import { DigitalClockContainer } from './components/digital/index.jsx';
+import { AnalogClockContainer } from './components/analog/index.jsx';
 
-export class ClockContainer extends React.Component {
+/*Main clock template*/
+export default class ClockContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

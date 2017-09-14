@@ -49,3 +49,4 @@ node_modules/
 target
 build/
 npm-debug.log
+dist/

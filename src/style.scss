@@ -1,18 +1,18 @@
-.position-absolute {
+%position-absolute {
   position: absolute;
 }
 .shield {
-  @extend .position-absolute;
+  @extend %position-absolute;
 }
 .hours {
-  @extend .position-absolute;
+  @extend %position-absolute;
   z-index: 2;
 }
 .seconds {
-  @extend .position-absolute;
+  @extend %position-absolute;
   z-index: 3;
 }
 .minutes {
-  @extend .position-absolute;
+  @extend %position-absolute;
   z-index: 1;
 }

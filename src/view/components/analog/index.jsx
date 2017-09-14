@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { AnalogClock } from '../components/analogclock.jsx';
+import { AnalogClock } from './components/analogclock.jsx';
+import { getTime } from '../../../engine';
 
-const clock = require('../clock');
-
+/*Analog clock template. Self updating container*/
 export class AnalogClockContainer extends React.Component {
   constructor(props) {
     super(props);
-    const time = clock.getTime('analog');
+    const time = getTime('analog');
 
     this.state = {
       time: time
@@ -16,7 +15,7 @@ export class AnalogClockContainer extends React.Component {
   }
 
   updateClocks() {
-    const time = clock.getTime('analog');
+    const time = getTime('analog');
     this.setState({time: time});
   }
 

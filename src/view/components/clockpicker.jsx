@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
+/*Clock type picker template */
 export class ClockPicker extends React.Component {
   constructor(props) {
     super(props);

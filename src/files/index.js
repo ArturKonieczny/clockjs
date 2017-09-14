@@ -1,4 +1,4 @@
-require('./hours.png');
-require('./minutes.png');
-require('./seconds.png');
-require('./shield.png');
+import './hours.png';
+import './minutes.png';
+import './seconds.png';
+import './shield.png';

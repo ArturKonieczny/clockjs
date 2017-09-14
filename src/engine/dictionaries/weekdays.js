@@ -1,4 +1,4 @@
-module.exports = [
+export const weekDays = [
   'Niedziela',
   'Poniedziałek',
   'Wtorek',

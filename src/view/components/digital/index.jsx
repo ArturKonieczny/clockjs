@@ -1,14 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { DigitalClock } from '../components/digitalclock.jsx';
-import { TimeFormatPicker } from '../components/timeformatpicker.jsx';
+import { DigitalClock } from './components/digitalclock.jsx';
+import { TimeFormatPicker } from './components/timeformatpicker.jsx';
+import { getTime } from '../../../engine/';
 
-const clock = require('../clock');
-
+/*Digital clock template. Self updating container*/
 export class DigitalClockContainer extends React.Component {
   constructor(props) {
     super(props);
-    const time = clock.getTime('digital');
+    const time = getTime('digital');
     this.state = {
       time: time,
       timeFormat: '24h'
@@ -18,7 +17,7 @@ export class DigitalClockContainer extends React.Component {
   }
 
   updateClocks() {
-    const time = clock.getTime('digital');
+    const time = getTime('digital');
     this.setState({time: time});
   }
 
