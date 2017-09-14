@@ -14,7 +14,7 @@ const port = 8080;
 /* Paths */
 const projectPath = path.join(__dirname, '..');
 const sourcePath = path.join(projectPath, 'src');
-const distPath = path.join(projectPath, 'dist');
+const distPath = path.join(projectPath, 'docs');
 const assetsPath = 'assets';
 const dataPath = 'data';
 
