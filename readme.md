@@ -2,6 +2,9 @@
 Old code upload.
 Clock written in JS with react.
 
+## Sample
+https://arturkonieczny.github.io/clockjs/index.html
+
 ## Usage and Development
 Download this repository and
 
