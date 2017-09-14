@@ -1,8 +1,8 @@
-#ClockJS
+# ClockJS
 Old code upload.
 Clock written in JS with react.
 
-##Usage and Development
+## Usage and Development
 Download this repository and
 
 ```bash
